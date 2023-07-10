@@ -1,0 +1,423 @@
+/* Desktops and laptops */
+@media (min-width: 76.5em) {
+    /* Styles */
+}
+
+@media (max-width: 76.4375em) {
+    .about__item-text {
+        text-align: center;
+    }
+}
+
+
+/* tablet large*/
+@media (min-width: 62em) and (max-width: 76.4375em) {
+    .grid {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .about__item {
+        height: auto;
+    }
+
+    .adv__item {
+        padding: 30px 0;
+    }
+
+    .member__item {
+        width: calc(100%/3);
+    }
+
+    .member__item-img {
+        width: auto;
+        height: 290px;
+    }
+
+    .session__member-img-source {
+        margin-top: 110px;
+    }
+
+    .feedback__des {
+        margin-left: -30px;
+        margin-right: -30px;
+    }
+
+    .session__contact-control-submit {
+        width: auto;
+    }
+}
+
+/* table small */
+@media (min-width: 48em) and (max-width: 61.9375em) {
+    .grid {
+        width: 720px;
+    }
+
+    .introduction__des {
+        padding: 30px;
+    }
+
+    .introduction__des-summary-text {
+        padding-top: 0;
+    }
+
+    .header__contact {
+        margin-top: 56px;
+        font-size: 3rem;
+    }
+
+    .grid__table {
+        display: grid;
+        grid-template-columns: repeat(2, calc(50% - 10px));
+        grid-gap: 30px;
+    }
+
+    .member__item {
+        padding: 20px 30px;
+    }
+    
+    .adv__list {
+        margin-top: 50px;
+    }
+
+    .about__item {
+        padding: 10px;
+        width: auto;
+        height: auto;
+    }
+
+    .session__member-img-source {
+        margin-top: 0;
+    }
+
+    .building-img {
+        height: 384px;
+    }
+
+    
+}
+
+/* tablet + mobile */
+@media (max-width: 61.9375em) {
+    .session__advantages {
+        flex-direction: column;
+    }
+
+    .adv__infor, .adv__list {
+        width: 100%;
+    }
+
+    .advice-form__control-input {
+        width: 100%;
+    }
+
+    .member__item-img {
+        width: auto;
+    }
+
+    .member__item-infor {
+        display: contents;
+    }
+
+    .building-icon-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .building-icon {
+        --length-icon: 150px;
+    }
+
+    .au__des-tittle {
+        margin-top: 5px;
+        font-size: 4.2rem;
+        line-height: 4.5rem;
+    }
+
+    .au__des-text {
+        margin-top: -20px;
+        margin-bottom: 0;
+    }
+
+    .session__help-summary-text-1 {
+        display: none;
+    }
+
+    .session__help-summary-text-2 {
+        display: block;
+    }
+
+    .session__help-tittle {
+        margin: 0;
+    }
+
+    .session__help-text {
+        margin-top: auto;
+    }
+
+    .session__help-contact-list {
+        padding-top: 20px;
+    }
+
+    .session__help-quick-contact {
+        line-height: 3.5rem;
+        font-size: 3rem;
+    }
+
+    .session__contact-tittle {
+        margin: 20px 0;
+    }
+
+    .session__contact-form {
+        margin-top: 45px;
+        padding: 40px 30px;
+    }
+
+    .session__contact-control-submit {
+        width: auto;
+    }
+}
+
+/* mobile */
+@media (max-width: 47.9375em) {
+    .grid__row {
+        flex-direction: column;
+    }
+
+    .grid__table {
+        display: grid;
+        grid-template-columns: repeat(1, 100%);
+        grid-gap: 30px;
+    }
+
+    .session__title--big {
+        margin: 10px auto;
+    }
+
+    .introduction__des {
+        width: 100%;
+        padding: 0 10px 50px;
+    }
+
+    .header__text {
+        margin: 10px 0;
+    }
+
+    .about__item {
+        padding: 10px;
+        width: 100%;
+        height: auto;
+    }
+
+    .m-a-v__list-infor {
+        padding: 30px 10px;
+        height: auto;
+    }
+
+    .m-a-v__list-infor-item-tittle {
+        margin-bottom: 0;
+    }
+
+    .advice-form__control {
+        flex-direction: column;
+        width: auto;
+    }
+
+    .advice-form__control-group {
+        margin: 8px 0;
+    }
+
+    .advice-form__control-submit {
+        margin: 8px 0;
+        padding: 15px 30px;
+    }
+
+    .feedback__des {
+        flex-direction: column;
+    }
+
+    .feedback__des-icon {
+        margin: 0 auto;
+        --length-icon: 65px;
+    }
+
+    .feedback__des-icon i {
+        font-size: 4rem;
+    }
+
+    .feedback__des-text-contain {
+        padding: 10px;
+    }
+    
+    .building-img {
+        width: 100%;
+    }
+
+    .au__benefit-text {
+        margin: 13px 0;
+    }
+}
+
+/* mobile large */
+@media (min-width: 36.0625em) and (max-width: 47.9375em) {
+    .grid {
+        width: 540px;
+    }
+
+    .header__contact {
+        margin-top: 70px;
+    }
+
+    .introduction__img {
+        min-height: 579px;
+    }
+
+    .adv__item-grid {
+        grid-gap: 0;
+    }
+
+    .member__list {
+        padding: 65px 0 45px;
+    }
+
+    .member__item {
+        padding: 10px;
+    }
+
+    .member__item-img {
+        height: 581px;
+    }
+
+    .session__member-img-source {
+        display: none;
+    }
+
+    .building-img {
+        height: 804px;
+    }
+
+    .au__des, .au__benefit, .session__help, .session__contact {
+        padding: 20px 10px;
+        width: 100%;
+    }
+
+    .au__des-text {
+        margin-top: 0;
+    }
+
+    .session__contact-summary-text {
+        padding-top: 0;
+    }
+
+    .session__contact-form {
+        padding: 30px 10px;
+    }
+}
+
+/* mobile small */
+@media (max-width: 36em) {
+    .grid {
+        width: 340px;
+    }
+
+    .grid__row {
+        flex-direction: column;
+    }
+
+    .session__title--big {
+        line-height: 5rem;
+        font-size: 4rem;
+    }
+
+    .header__contact {
+        font-size: 3rem;
+    }
+
+    .introduction__img {
+        min-height: 365px;
+    }
+
+    .m-a-v__list-infor-highlight-text {
+        margin-top: 0;
+    }
+
+    .adv__infor, .adv__item, .advice-form, 
+    .adv__infor-detail, .member__item, .au__des,
+    .au__benefit, .session__help, .session__contact,
+    .session__contact-form {
+        padding: 30px 10px;
+        width: 100%;
+    }
+
+    .adv__infor-img {
+        width: 100%;
+        height: 374px;
+    }
+
+    .adv__infor-detail {
+        margin: 10px;
+        width: 85%;
+    }
+    
+    .adv__list {
+        margin-top: 20px;
+    }
+
+    .adv__item-grid {
+        row-gap: 0;
+    }
+
+    .adv__item-name {
+        margin-top: 28px;
+    }     
+
+    .advice-form__tittle {
+        font-size: 3.5rem;
+        line-height: 2rem;
+    }
+
+    .advice-form__text {
+        margin-top: 25px;
+        width: auto;
+    }
+
+    .advice-form__control {
+        margin: 23px auto 5px;
+    }
+
+    .member__list {
+        row-gap: 10px;
+        padding: 35px 0 0;
+    }
+
+    .session__member-img-source {
+        margin-top: 0;
+        margin-bottom: 25px;
+    }
+
+    .building-img {
+        height: 544px;
+    }
+
+    .building-icon {
+        --length-icon: 100px;
+    }
+
+    .au__des-summary-text {
+        padding-top: 5px;
+    }
+
+    .au__des-text {
+        margin-top: -10px;
+    }
+
+    .session__help-quick-contact {
+        margin-top: 10px;
+    }
+
+    .session__contact-summary-text {
+        padding-top: 0;
+        margin-top: -20px;
+    }
+}

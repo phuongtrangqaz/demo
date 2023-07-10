@@ -1,0 +1,88 @@
+:root {
+    --primary-color: #973fee;
+    --second-color: #eb7df2;
+    --background-color: #F2F2F2;
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.grid {
+    width: 1140px;
+    max-width: 100%;
+    margin: 0 auto;     
+    /* tự căn giữa chính mình trong thẻ cha */
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.session__summary-text {
+    margin: 0;
+    padding-top: 70px;
+    color: #555;
+    font-size: 2.2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    transform: scaleY(0.85);
+    letter-spacing: 2px;
+}
+
+.session__title--big {
+    margin: 18px auto;
+    max-width: 600px;
+    color: var(--primary-color);
+    font-size: 5.5rem;
+    line-height: 6rem;
+    transform: scaleY(0.85);
+}
+
+.session__title--small {
+    line-height: 4rem;
+    color: var(--black-color);
+    font-size: 2.8rem;
+    transform: scaleY(0.85);
+}
+
+.session__des-text {
+    margin-bottom: 0;
+    line-height: 2.6rem;
+    color: var(--text-color);
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    text-align: left;
+    transform: scaleY(0.98);
+}
+
+.highlight-text {
+    color: #eb7df2;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.bold-text {
+    display: block;
+    font-size: 2.2rem;
+    font-weight: 600;
+    transform: scaleY(0.90);
+    line-height: 3rem;
+}
